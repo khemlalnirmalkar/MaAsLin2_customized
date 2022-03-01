@@ -1,0 +1,352 @@
+2021-10-14 17:35:05 INFO::Writing function arguments to log file
+2021-10-14 17:35:05 DEBUG::Function arguments
+2021-10-14 17:35:05 DEBUG::Input data file: C:/Users/knirmalk/Documents/R/win-library/4.0/Maaslin2/extdata/HMP2_taxonomy.tsv
+2021-10-14 17:35:05 DEBUG::Input metadata file: C:/Users/knirmalk/Documents/R/win-library/4.0/Maaslin2/extdata/HMP2_metadata.tsv
+2021-10-14 17:35:05 DEBUG::Output folder: demo_output
+2021-10-14 17:35:05 DEBUG::Min Abundance: 0.000000
+2021-10-14 17:35:05 DEBUG::Min Prevalence: 0.100000
+2021-10-14 17:35:05 DEBUG::Normalization: NONE
+2021-10-14 17:35:05 DEBUG::Transform: AST
+2021-10-14 17:35:05 DEBUG::Analysis method: LM
+2021-10-14 17:35:05 DEBUG::Max significance: 0.250000
+2021-10-14 17:35:05 DEBUG::Random effects: site,subject
+2021-10-14 17:35:05 DEBUG::Fixed effects: diagnosis,dysbiosisnonIBD,dysbiosisUC,dysbiosisCD,antibiotics,age
+2021-10-14 17:35:05 DEBUG::Correction method: BH
+2021-10-14 17:35:05 DEBUG::Standardize: FALSE
+2021-10-14 17:35:05 DEBUG::Cores: 1
+2021-10-14 17:35:05 INFO::Verifying options selected are valid
+2021-10-14 17:35:05 INFO::Determining format of input files
+2021-10-14 17:35:05 INFO::Input format is data samples as rows and metadata samples as rows
+2021-10-14 17:35:05 DEBUG::A total of 1595 samples were found in both the data and metadata
+2021-10-14 17:35:05 DEBUG::Reordering data/metadata to use same sample ordering
+2021-10-14 17:35:05 INFO::Formula for random effects: expr ~ (1 | site) + (1 | subject)
+2021-10-14 17:35:05 INFO::Formula for fixed effects: expr ~  diagnosis + dysbiosisnonIBD + dysbiosisUC + dysbiosisCD + antibiotics + age
+2021-10-14 17:35:05 INFO::Running selected normalization method: NONE
+2021-10-14 17:35:05 INFO::Filter data based on min abundance and min prevalence
+2021-10-14 17:35:05 INFO::Total samples in data: 1595
+2021-10-14 17:35:05 INFO::Min samples required with min abundance for a feature not to be filtered: 159.500000
+2021-10-14 17:35:05 INFO::Total filtered features: 0
+2021-10-14 17:35:05 INFO::Filtered feature names:
+2021-10-14 17:35:05 INFO::Bypass z-score application to metadata
+2021-10-14 17:35:05 INFO::Running selected transform method: AST
+2021-10-14 17:35:05 INFO::Running selected analysis method: LM
+2021-10-14 17:35:06 INFO::Fitting model to feature number 1, Bifidobacterium.adolescentis
+2021-10-14 17:35:07 INFO::Fitting model to feature number 2, Bifidobacterium.bifidum
+2021-10-14 17:35:07 INFO::Fitting model to feature number 3, Bifidobacterium.longum
+2021-10-14 17:35:07 INFO::Fitting model to feature number 4, Bifidobacterium.pseudocatenulatum
+2021-10-14 17:35:07 INFO::Fitting model to feature number 5, Collinsella.aerofaciens
+2021-10-14 17:35:08 INFO::Fitting model to feature number 6, Bacteroides.caccae
+2021-10-14 17:35:08 INFO::Fitting model to feature number 7, Bacteroides.cellulosilyticus
+2021-10-14 17:35:08 INFO::Fitting model to feature number 8, Bacteroides.dorei
+2021-10-14 17:35:08 INFO::Fitting model to feature number 9, Bacteroides.eggerthii
+2021-10-14 17:35:08 INFO::Fitting model to feature number 10, Bacteroides.faecis
+2021-10-14 17:35:09 INFO::Fitting model to feature number 11, Bacteroides.finegoldii
+2021-10-14 17:35:09 INFO::Fitting model to feature number 12, Bacteroides.fragilis
+2021-10-14 17:35:09 INFO::Fitting model to feature number 13, Bacteroides.intestinalis
+2021-10-14 17:35:09 INFO::Fitting model to feature number 14, Bacteroides.massiliensis
+2021-10-14 17:35:09 INFO::Fitting model to feature number 15, Bacteroides.ovatus
+2021-10-14 17:35:10 INFO::Fitting model to feature number 16, Bacteroides.salyersiae
+2021-10-14 17:35:10 INFO::Fitting model to feature number 17, Bacteroides.stercoris
+2021-10-14 17:35:10 INFO::Fitting model to feature number 18, Bacteroides.thetaiotaomicron
+2021-10-14 17:35:10 INFO::Fitting model to feature number 19, Bacteroides.uniformis
+2021-10-14 17:35:10 INFO::Fitting model to feature number 20, Bacteroides.vulgatus
+2021-10-14 17:35:10 INFO::Fitting model to feature number 21, Bacteroides.xylanisolvens
+2021-10-14 17:35:11 INFO::Fitting model to feature number 22, Bacteroidales.bacterium.ph8
+2021-10-14 17:35:11 INFO::Fitting model to feature number 23, Barnesiella.intestinihominis
+2021-10-14 17:35:11 INFO::Fitting model to feature number 24, Coprobacter.fastidiosus
+2021-10-14 17:35:11 INFO::Fitting model to feature number 25, Odoribacter.splanchnicus
+2021-10-14 17:35:11 INFO::Fitting model to feature number 26, Parabacteroides.distasonis
+2021-10-14 17:35:12 INFO::Fitting model to feature number 27, Parabacteroides.goldsteinii
+2021-10-14 17:35:12 INFO::Fitting model to feature number 28, Parabacteroides.merdae
+2021-10-14 17:35:12 INFO::Fitting model to feature number 29, Parabacteroides.unclassified
+2021-10-14 17:35:12 INFO::Fitting model to feature number 30, Paraprevotella.clara
+2021-10-14 17:35:12 INFO::Fitting model to feature number 31, Paraprevotella.unclassified
+2021-10-14 17:35:12 INFO::Fitting model to feature number 32, Prevotella.copri
+2021-10-14 17:35:13 INFO::Fitting model to feature number 33, Alistipes.finegoldii
+2021-10-14 17:35:13 INFO::Fitting model to feature number 34, Alistipes.onderdonkii
+2021-10-14 17:35:13 INFO::Fitting model to feature number 35, Alistipes.putredinis
+2021-10-14 17:35:13 INFO::Fitting model to feature number 36, Alistipes.shahii
+2021-10-14 17:35:13 INFO::Fitting model to feature number 37, Alistipes.unclassified
+2021-10-14 17:35:14 INFO::Fitting model to feature number 38, Streptococcus.salivarius
+2021-10-14 17:35:14 INFO::Fitting model to feature number 39, Clostridium.bolteae
+2021-10-14 17:35:14 INFO::Fitting model to feature number 40, Clostridium.citroniae
+2021-10-14 17:35:14 INFO::Fitting model to feature number 41, Clostridium.clostridioforme
+2021-10-14 17:35:14 INFO::Fitting model to feature number 42, Clostridium.hathewayi
+2021-10-14 17:35:14 INFO::Fitting model to feature number 43, Clostridium.leptum
+2021-10-14 17:35:15 INFO::Fitting model to feature number 44, Clostridium.nexile
+2021-10-14 17:35:15 INFO::Fitting model to feature number 45, Clostridium.symbiosum
+2021-10-14 17:35:15 INFO::Fitting model to feature number 46, Flavonifractor.plautii
+2021-10-14 17:35:15 INFO::Fitting model to feature number 47, Eubacterium.eligens
+2021-10-14 17:35:15 INFO::Fitting model to feature number 48, Eubacterium.hallii
+2021-10-14 17:35:16 INFO::Fitting model to feature number 49, Eubacterium.rectale
+2021-10-14 17:35:16 INFO::Fitting model to feature number 50, Eubacterium.siraeum
+2021-10-14 17:35:16 INFO::Fitting model to feature number 51, Eubacterium.sp.3.1.31
+2021-10-14 17:35:16 INFO::Fitting model to feature number 52, Eubacterium.ventriosum
+2021-10-14 17:35:16 INFO::Fitting model to feature number 53, Ruminococcus.gnavus
+2021-10-14 17:35:17 INFO::Fitting model to feature number 54, Ruminococcus.obeum
+2021-10-14 17:35:17 INFO::Fitting model to feature number 55, Ruminococcus.torques
+2021-10-14 17:35:17 INFO::Fitting model to feature number 56, Coprococcus.comes
+2021-10-14 17:35:17 INFO::Fitting model to feature number 57, Dorea.longicatena
+2021-10-14 17:35:17 INFO::Fitting model to feature number 58, Lachnospiraceae.bacterium.1.1.57FAA
+2021-10-14 17:35:17 INFO::Fitting model to feature number 59, Lachnospiraceae.bacterium.3.1.46FAA
+2021-10-14 17:35:18 INFO::Fitting model to feature number 60, Roseburia.hominis
+2021-10-14 17:35:18 INFO::Fitting model to feature number 61, Roseburia.intestinalis
+2021-10-14 17:35:18 INFO::Fitting model to feature number 62, Roseburia.inulinivorans
+2021-10-14 17:35:18 INFO::Fitting model to feature number 63, Roseburia.unclassified
+2021-10-14 17:35:18 INFO::Fitting model to feature number 64, Oscillibacter.unclassified
+2021-10-14 17:35:18 INFO::Fitting model to feature number 65, Peptostreptococcaceae.noname.unclassified
+2021-10-14 17:35:19 INFO::Fitting model to feature number 66, Faecalibacterium.prausnitzii
+2021-10-14 17:35:19 INFO::Fitting model to feature number 67, Ruminococcus.bromii
+2021-10-14 17:35:19 INFO::Fitting model to feature number 68, Ruminococcus.callidus
+2021-10-14 17:35:19 INFO::Fitting model to feature number 69, Ruminococcus.lactaris
+2021-10-14 17:35:19 INFO::Fitting model to feature number 70, Subdoligranulum.unclassified
+2021-10-14 17:35:19 INFO::Fitting model to feature number 71, Coprobacillus.unclassified
+2021-10-14 17:35:20 INFO::Fitting model to feature number 72, Acidaminococcus.unclassified
+2021-10-14 17:35:20 INFO::Fitting model to feature number 73, Dialister.invisus
+2021-10-14 17:35:20 INFO::Fitting model to feature number 74, Veillonella.atypica
+2021-10-14 17:35:20 INFO::Fitting model to feature number 75, Veillonella.dispar
+2021-10-14 17:35:20 INFO::Fitting model to feature number 76, Veillonella.parvula
+2021-10-14 17:35:21 INFO::Fitting model to feature number 77, Veillonella.unclassified
+2021-10-14 17:35:21 INFO::Fitting model to feature number 78, Burkholderiales.bacterium.1.1.47
+2021-10-14 17:35:21 INFO::Fitting model to feature number 79, Parasutterella.excrementihominis
+2021-10-14 17:35:21 INFO::Fitting model to feature number 80, Sutterella.wadsworthensis
+2021-10-14 17:35:21 INFO::Fitting model to feature number 81, Bilophila.unclassified
+2021-10-14 17:35:22 INFO::Fitting model to feature number 82, Escherichia.coli
+2021-10-14 17:35:22 INFO::Fitting model to feature number 83, Escherichia.unclassified
+2021-10-14 17:35:22 INFO::Fitting model to feature number 84, Klebsiella.pneumoniae
+2021-10-14 17:35:22 INFO::Fitting model to feature number 85, Haemophilus.parainfluenzae
+2021-10-14 17:35:22 INFO::Fitting model to feature number 86, Akkermansia.muciniphila
+2021-10-14 17:35:23 INFO::Fitting model to feature number 87, C2likevirus.unclassified
+2021-10-14 17:35:23 INFO::Counting total values for each feature
+2021-10-14 17:35:23 INFO::Writing residuals to file demo_output/residuals.rds
+2021-10-14 17:35:23 INFO::Writing all results to file (ordered by increasing q-values): demo_output/all_results.tsv
+2021-10-14 17:35:23 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): demo_output/significant_results.tsv
+2021-10-14 17:35:23 INFO::Writing heatmap of significant results to file: demo_output/heatmap.pdf
+2021-10-14 17:35:23 INFO::Writing association plots (one for each significant association) to output folder: demo_output
+2021-10-14 17:35:24 INFO::Plotting associations from most to least significant, grouped by metadata
+2021-10-14 17:35:24 INFO::Plotting data for metadata number 1, dysbiosisCD
+2021-10-14 17:35:24 INFO::Creating boxplot for categorical data, dysbiosisCD vs Faecalibacterium.prausnitzii
+2021-10-14 17:35:24 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.uniformis
+2021-10-14 17:35:24 INFO::Creating boxplot for categorical data, dysbiosisCD vs Eubacterium.rectale
+2021-10-14 17:35:25 INFO::Creating boxplot for categorical data, dysbiosisCD vs Alistipes.putredinis
+2021-10-14 17:35:25 INFO::Creating boxplot for categorical data, dysbiosisCD vs Subdoligranulum.unclassified
+2021-10-14 17:35:25 INFO::Creating boxplot for categorical data, dysbiosisCD vs Escherichia.coli
+2021-10-14 17:35:25 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.vulgatus
+2021-10-14 17:35:25 INFO::Creating boxplot for categorical data, dysbiosisCD vs Clostridium.clostridioforme
+2021-10-14 17:35:26 INFO::Creating boxplot for categorical data, dysbiosisCD vs Klebsiella.pneumoniae
+2021-10-14 17:35:26 INFO::Creating boxplot for categorical data, dysbiosisCD vs Clostridium.hathewayi
+2021-10-14 17:35:26 INFO::Creating boxplot for categorical data, dysbiosisCD vs Alistipes.shahii
+2021-10-14 17:35:26 INFO::Creating boxplot for categorical data, dysbiosisCD vs Ruminococcus.obeum
+2021-10-14 17:35:27 INFO::Creating boxplot for categorical data, dysbiosisCD vs Roseburia.inulinivorans
+2021-10-14 17:35:27 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.thetaiotaomicron
+2021-10-14 17:35:27 INFO::Creating boxplot for categorical data, dysbiosisCD vs Coprococcus.comes
+2021-10-14 17:35:27 INFO::Creating boxplot for categorical data, dysbiosisCD vs Veillonella.unclassified
+2021-10-14 17:35:28 INFO::Creating boxplot for categorical data, dysbiosisCD vs Lachnospiraceae.bacterium.3.1.46FAA
+2021-10-14 17:35:28 INFO::Creating boxplot for categorical data, dysbiosisCD vs Sutterella.wadsworthensis
+2021-10-14 17:35:28 INFO::Creating boxplot for categorical data, dysbiosisCD vs Odoribacter.splanchnicus
+2021-10-14 17:35:28 INFO::Creating boxplot for categorical data, dysbiosisCD vs Parabacteroides.distasonis
+2021-10-14 17:35:28 INFO::Creating boxplot for categorical data, dysbiosisCD vs Roseburia.hominis
+2021-10-14 17:35:29 INFO::Creating boxplot for categorical data, dysbiosisCD vs Burkholderiales.bacterium.1.1.47
+2021-10-14 17:35:29 INFO::Creating boxplot for categorical data, dysbiosisCD vs Escherichia.unclassified
+2021-10-14 17:35:29 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bilophila.unclassified
+2021-10-14 17:35:29 INFO::Creating boxplot for categorical data, dysbiosisCD vs Dorea.longicatena
+2021-10-14 17:35:30 INFO::Creating boxplot for categorical data, dysbiosisCD vs Alistipes.unclassified
+2021-10-14 17:35:30 INFO::Creating boxplot for categorical data, dysbiosisCD vs Clostridium.symbiosum
+2021-10-14 17:35:30 INFO::Creating boxplot for categorical data, dysbiosisCD vs Eubacterium.hallii
+2021-10-14 17:35:30 INFO::Creating boxplot for categorical data, dysbiosisCD vs Parasutterella.excrementihominis
+2021-10-14 17:35:30 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.stercoris
+2021-10-14 17:35:31 INFO::Creating boxplot for categorical data, dysbiosisCD vs Alistipes.finegoldii
+2021-10-14 17:35:31 INFO::Creating boxplot for categorical data, dysbiosisCD vs Eubacterium.ventriosum
+2021-10-14 17:35:31 INFO::Creating boxplot for categorical data, dysbiosisCD vs Clostridium.nexile
+2021-10-14 17:35:31 INFO::Creating boxplot for categorical data, dysbiosisCD vs Clostridium.leptum
+2021-10-14 17:35:32 INFO::Creating boxplot for categorical data, dysbiosisCD vs Veillonella.parvula
+2021-10-14 17:35:32 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.ovatus
+2021-10-14 17:35:32 INFO::Creating boxplot for categorical data, dysbiosisCD vs Oscillibacter.unclassified
+2021-10-14 17:35:32 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.finegoldii
+2021-10-14 17:35:33 INFO::Creating boxplot for categorical data, dysbiosisCD vs Ruminococcus.bromii
+2021-10-14 17:35:33 INFO::Creating boxplot for categorical data, dysbiosisCD vs Coprobacillus.unclassified
+2021-10-14 17:35:33 INFO::Creating boxplot for categorical data, dysbiosisCD vs Parabacteroides.merdae
+2021-10-14 17:35:33 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.eggerthii
+2021-10-14 17:35:33 INFO::Creating boxplot for categorical data, dysbiosisCD vs Veillonella.dispar
+2021-10-14 17:35:34 INFO::Creating boxplot for categorical data, dysbiosisCD vs Collinsella.aerofaciens
+2021-10-14 17:35:34 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.caccae
+2021-10-14 17:35:34 INFO::Creating boxplot for categorical data, dysbiosisCD vs Ruminococcus.gnavus
+2021-10-14 17:35:34 INFO::Creating boxplot for categorical data, dysbiosisCD vs Paraprevotella.clara
+2021-10-14 17:35:35 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.xylanisolvens
+2021-10-14 17:35:35 INFO::Creating boxplot for categorical data, dysbiosisCD vs Ruminococcus.lactaris
+2021-10-14 17:35:35 INFO::Creating boxplot for categorical data, dysbiosisCD vs Paraprevotella.unclassified
+2021-10-14 17:35:35 INFO::Creating boxplot for categorical data, dysbiosisCD vs Ruminococcus.torques
+2021-10-14 17:35:35 INFO::Creating boxplot for categorical data, dysbiosisCD vs C2likevirus.unclassified
+2021-10-14 17:35:36 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bacteroides.faecis
+2021-10-14 17:35:36 INFO::Creating boxplot for categorical data, dysbiosisCD vs Bifidobacterium.longum
+2021-10-14 17:35:36 INFO::Creating boxplot for categorical data, dysbiosisCD vs Eubacterium.siraeum
+2021-10-14 17:35:36 INFO::Creating boxplot for categorical data, dysbiosisCD vs Dialister.invisus
+2021-10-14 17:35:37 INFO::Creating boxplot for categorical data, dysbiosisCD vs Parabacteroides.unclassified
+2021-10-14 17:35:38 INFO::Plotting data for metadata number 2, dysbiosisUC
+2021-10-14 17:35:38 INFO::Creating boxplot for categorical data, dysbiosisUC vs Subdoligranulum.unclassified
+2021-10-14 17:35:38 INFO::Creating boxplot for categorical data, dysbiosisUC vs Prevotella.copri
+2021-10-14 17:35:38 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.fragilis
+2021-10-14 17:35:39 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.caccae
+2021-10-14 17:35:39 INFO::Creating boxplot for categorical data, dysbiosisUC vs Faecalibacterium.prausnitzii
+2021-10-14 17:35:39 INFO::Creating boxplot for categorical data, dysbiosisUC vs Oscillibacter.unclassified
+2021-10-14 17:35:40 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.uniformis
+2021-10-14 17:35:40 INFO::Creating boxplot for categorical data, dysbiosisUC vs Eubacterium.hallii
+2021-10-14 17:35:40 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.faecis
+2021-10-14 17:35:40 INFO::Creating boxplot for categorical data, dysbiosisUC vs Klebsiella.pneumoniae
+2021-10-14 17:35:41 INFO::Creating boxplot for categorical data, dysbiosisUC vs Coprobacillus.unclassified
+2021-10-14 17:35:41 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.stercoris
+2021-10-14 17:35:41 INFO::Creating boxplot for categorical data, dysbiosisUC vs Eubacterium.rectale
+2021-10-14 17:35:41 INFO::Creating boxplot for categorical data, dysbiosisUC vs Ruminococcus.gnavus
+2021-10-14 17:35:42 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.ovatus
+2021-10-14 17:35:42 INFO::Creating boxplot for categorical data, dysbiosisUC vs Lachnospiraceae.bacterium.3.1.46FAA
+2021-10-14 17:35:42 INFO::Creating boxplot for categorical data, dysbiosisUC vs Eubacterium.siraeum
+2021-10-14 17:35:42 INFO::Creating boxplot for categorical data, dysbiosisUC vs Alistipes.putredinis
+2021-10-14 17:35:43 INFO::Creating boxplot for categorical data, dysbiosisUC vs Ruminococcus.obeum
+2021-10-14 17:35:43 INFO::Creating boxplot for categorical data, dysbiosisUC vs Escherichia.coli
+2021-10-14 17:35:43 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.eggerthii
+2021-10-14 17:35:43 INFO::Creating boxplot for categorical data, dysbiosisUC vs Clostridium.leptum
+2021-10-14 17:35:44 INFO::Creating boxplot for categorical data, dysbiosisUC vs Barnesiella.intestinihominis
+2021-10-14 17:35:44 INFO::Creating boxplot for categorical data, dysbiosisUC vs Alistipes.shahii
+2021-10-14 17:35:44 INFO::Creating boxplot for categorical data, dysbiosisUC vs Collinsella.aerofaciens
+2021-10-14 17:35:44 INFO::Creating boxplot for categorical data, dysbiosisUC vs Clostridium.nexile
+2021-10-14 17:35:45 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bacteroides.xylanisolvens
+2021-10-14 17:35:45 INFO::Creating boxplot for categorical data, dysbiosisUC vs Parabacteroides.goldsteinii
+2021-10-14 17:35:45 INFO::Creating boxplot for categorical data, dysbiosisUC vs Eubacterium.ventriosum
+2021-10-14 17:35:45 INFO::Creating boxplot for categorical data, dysbiosisUC vs Coprococcus.comes
+2021-10-14 17:35:46 INFO::Creating boxplot for categorical data, dysbiosisUC vs Bifidobacterium.adolescentis
+2021-10-14 17:35:46 INFO::Creating boxplot for categorical data, dysbiosisUC vs Veillonella.atypica
+2021-10-14 17:35:47 INFO::Plotting data for metadata number 3, dysbiosisnonIBD
+2021-10-14 17:35:47 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Faecalibacterium.prausnitzii
+2021-10-14 17:35:47 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Eubacterium.rectale
+2021-10-14 17:35:48 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Prevotella.copri
+2021-10-14 17:35:48 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Eubacterium.sp.3.1.31
+2021-10-14 17:35:48 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Roseburia.hominis
+2021-10-14 17:35:48 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Odoribacter.splanchnicus
+2021-10-14 17:35:49 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Bilophila.unclassified
+2021-10-14 17:35:49 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Escherichia.coli
+2021-10-14 17:35:49 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Subdoligranulum.unclassified
+2021-10-14 17:35:49 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Clostridium.leptum
+2021-10-14 17:35:50 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Bacteroides.fragilis
+2021-10-14 17:35:50 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Klebsiella.pneumoniae
+2021-10-14 17:35:50 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Ruminococcus.torques
+2021-10-14 17:35:50 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Clostridium.clostridioforme
+2021-10-14 17:35:50 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Alistipes.putredinis
+2021-10-14 17:35:51 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Coprobacillus.unclassified
+2021-10-14 17:35:51 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Veillonella.dispar
+2021-10-14 17:35:51 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Eubacterium.eligens
+2021-10-14 17:35:51 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Bacteroides.eggerthii
+2021-10-14 17:35:52 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Lachnospiraceae.bacterium.3.1.46FAA
+2021-10-14 17:35:52 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Ruminococcus.obeum
+2021-10-14 17:35:52 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Ruminococcus.bromii
+2021-10-14 17:35:52 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Parasutterella.excrementihominis
+2021-10-14 17:35:52 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Alistipes.shahii
+2021-10-14 17:35:53 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Barnesiella.intestinihominis
+2021-10-14 17:35:53 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Burkholderiales.bacterium.1.1.47
+2021-10-14 17:35:53 INFO::Creating boxplot for categorical data, dysbiosisnonIBD vs Paraprevotella.unclassified
+2021-10-14 17:35:54 INFO::Plotting data for metadata number 4, antibiotics
+2021-10-14 17:35:54 INFO::Creating boxplot for categorical data, antibiotics vs Escherichia.coli
+2021-10-14 17:35:54 INFO::Creating boxplot for categorical data, antibiotics vs Roseburia.inulinivorans
+2021-10-14 17:35:55 INFO::Creating boxplot for categorical data, antibiotics vs Roseburia.intestinalis
+2021-10-14 17:35:55 INFO::Creating boxplot for categorical data, antibiotics vs Bacteroidales.bacterium.ph8
+2021-10-14 17:35:55 INFO::Creating boxplot for categorical data, antibiotics vs Roseburia.hominis
+2021-10-14 17:35:55 INFO::Creating boxplot for categorical data, antibiotics vs Dialister.invisus
+2021-10-14 17:35:56 INFO::Creating boxplot for categorical data, antibiotics vs Klebsiella.pneumoniae
+2021-10-14 17:35:56 INFO::Creating boxplot for categorical data, antibiotics vs Eubacterium.rectale
+2021-10-14 17:35:56 INFO::Creating boxplot for categorical data, antibiotics vs Sutterella.wadsworthensis
+2021-10-14 17:35:56 INFO::Creating boxplot for categorical data, antibiotics vs Bacteroides.thetaiotaomicron
+2021-10-14 17:35:57 INFO::Creating boxplot for categorical data, antibiotics vs Ruminococcus.callidus
+2021-10-14 17:35:57 INFO::Creating boxplot for categorical data, antibiotics vs Bacteroides.finegoldii
+2021-10-14 17:35:57 INFO::Creating boxplot for categorical data, antibiotics vs Alistipes.onderdonkii
+2021-10-14 17:35:57 INFO::Creating boxplot for categorical data, antibiotics vs Dorea.longicatena
+2021-10-14 17:35:58 INFO::Creating boxplot for categorical data, antibiotics vs Bifidobacterium.pseudocatenulatum
+2021-10-14 17:35:58 INFO::Creating boxplot for categorical data, antibiotics vs Bifidobacterium.longum
+2021-10-14 17:35:58 INFO::Creating boxplot for categorical data, antibiotics vs Clostridium.bolteae
+2021-10-14 17:35:58 INFO::Creating boxplot for categorical data, antibiotics vs Clostridium.hathewayi
+2021-10-14 17:35:59 INFO::Creating boxplot for categorical data, antibiotics vs Faecalibacterium.prausnitzii
+2021-10-14 17:35:59 INFO::Creating boxplot for categorical data, antibiotics vs Ruminococcus.bromii
+2021-10-14 17:35:59 INFO::Creating boxplot for categorical data, antibiotics vs Eubacterium.eligens
+2021-10-14 17:35:59 INFO::Creating boxplot for categorical data, antibiotics vs Ruminococcus.obeum
+2021-10-14 17:35:59 INFO::Creating boxplot for categorical data, antibiotics vs Bacteroides.fragilis
+2021-10-14 17:36:00 INFO::Creating boxplot for categorical data, antibiotics vs Escherichia.unclassified
+2021-10-14 17:36:00 INFO::Creating boxplot for categorical data, antibiotics vs Bilophila.unclassified
+2021-10-14 17:36:00 INFO::Creating boxplot for categorical data, antibiotics vs Eubacterium.sp.3.1.31
+2021-10-14 17:36:00 INFO::Creating boxplot for categorical data, antibiotics vs Alistipes.putredinis
+2021-10-14 17:36:01 INFO::Creating boxplot for categorical data, antibiotics vs Veillonella.parvula
+2021-10-14 17:36:01 INFO::Creating boxplot for categorical data, antibiotics vs Bacteroides.caccae
+2021-10-14 17:36:01 INFO::Creating boxplot for categorical data, antibiotics vs Parabacteroides.distasonis
+2021-10-14 17:36:01 INFO::Creating boxplot for categorical data, antibiotics vs Parabacteroides.merdae
+2021-10-14 17:36:02 INFO::Creating boxplot for categorical data, antibiotics vs Parasutterella.excrementihominis
+2021-10-14 17:36:02 INFO::Creating boxplot for categorical data, antibiotics vs Bifidobacterium.adolescentis
+2021-10-14 17:36:02 INFO::Creating boxplot for categorical data, antibiotics vs Lachnospiraceae.bacterium.1.1.57FAA
+2021-10-14 17:36:02 INFO::Creating boxplot for categorical data, antibiotics vs Akkermansia.muciniphila
+2021-10-14 17:36:03 INFO::Creating boxplot for categorical data, antibiotics vs Clostridium.symbiosum
+2021-10-14 17:36:03 INFO::Creating boxplot for categorical data, antibiotics vs Paraprevotella.clara
+2021-10-14 17:36:03 INFO::Creating boxplot for categorical data, antibiotics vs Bacteroides.faecis
+2021-10-14 17:36:04 INFO::Plotting data for metadata number 5, age
+2021-10-14 17:36:04 INFO::Creating scatter plot for continuous data, age vs Clostridium.clostridioforme
+2021-10-14 17:36:04 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:04 INFO::Creating scatter plot for continuous data, age vs Haemophilus.parainfluenzae
+2021-10-14 17:36:05 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:05 INFO::Creating scatter plot for continuous data, age vs Bifidobacterium.pseudocatenulatum
+2021-10-14 17:36:05 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:05 INFO::Creating scatter plot for continuous data, age vs Subdoligranulum.unclassified
+2021-10-14 17:36:05 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:05 INFO::Creating scatter plot for continuous data, age vs Bacteroides.intestinalis
+2021-10-14 17:36:05 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:05 INFO::Creating scatter plot for continuous data, age vs Faecalibacterium.prausnitzii
+2021-10-14 17:36:06 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:06 INFO::Creating scatter plot for continuous data, age vs Clostridium.symbiosum
+2021-10-14 17:36:06 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:06 INFO::Creating scatter plot for continuous data, age vs Ruminococcus.bromii
+2021-10-14 17:36:06 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:06 INFO::Creating scatter plot for continuous data, age vs Akkermansia.muciniphila
+2021-10-14 17:36:06 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:06 INFO::Creating scatter plot for continuous data, age vs Veillonella.dispar
+2021-10-14 17:36:07 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:07 INFO::Creating scatter plot for continuous data, age vs Collinsella.aerofaciens
+2021-10-14 17:36:07 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:07 INFO::Creating scatter plot for continuous data, age vs Roseburia.intestinalis
+2021-10-14 17:36:07 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:07 INFO::Creating scatter plot for continuous data, age vs Bacteroides.thetaiotaomicron
+2021-10-14 17:36:07 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:07 INFO::Creating scatter plot for continuous data, age vs Dialister.invisus
+2021-10-14 17:36:08 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:08 INFO::Creating scatter plot for continuous data, age vs Acidaminococcus.unclassified
+2021-10-14 17:36:08 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:08 INFO::Creating scatter plot for continuous data, age vs Veillonella.unclassified
+2021-10-14 17:36:08 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:08 INFO::Creating scatter plot for continuous data, age vs Bifidobacterium.longum
+2021-10-14 17:36:08 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:08 INFO::Creating scatter plot for continuous data, age vs Alistipes.unclassified
+2021-10-14 17:36:09 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:09 INFO::Creating scatter plot for continuous data, age vs Bacteroidales.bacterium.ph8
+2021-10-14 17:36:09 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2021-10-14 17:36:10 INFO::Plotting data for metadata number 6, diagnosis
+2021-10-14 17:36:10 INFO::Creating boxplot for categorical data, diagnosis vs Collinsella.aerofaciens
+2021-10-14 17:36:10 INFO::Creating boxplot for categorical data, diagnosis vs Clostridium.clostridioforme
+2021-10-14 17:36:10 INFO::Creating boxplot for categorical data, diagnosis vs Clostridium.bolteae
+2021-10-14 17:36:11 INFO::Creating boxplot for categorical data, diagnosis vs Bifidobacterium.adolescentis
+2021-10-14 17:36:11 INFO::Creating boxplot for categorical data, diagnosis vs Clostridium.bolteae
+2021-10-14 17:36:11 INFO::Creating boxplot for categorical data, diagnosis vs Clostridium.clostridioforme
+2021-10-14 17:36:11 INFO::Creating boxplot for categorical data, diagnosis vs Odoribacter.splanchnicus
+2021-10-14 17:36:12 INFO::Creating boxplot for categorical data, diagnosis vs Eubacterium.eligens
+2021-10-14 17:36:12 INFO::Creating boxplot for categorical data, diagnosis vs Parabacteroides.goldsteinii
+2021-10-14 17:36:12 INFO::Creating boxplot for categorical data, diagnosis vs Ruminococcus.bromii
+2021-10-14 17:36:12 INFO::Creating boxplot for categorical data, diagnosis vs Ruminococcus.callidus
+2021-10-14 17:36:13 INFO::Creating boxplot for categorical data, diagnosis vs Oscillibacter.unclassified
+2021-10-14 17:36:13 INFO::Creating boxplot for categorical data, diagnosis vs Sutterella.wadsworthensis
+2021-10-14 17:36:13 INFO::Creating boxplot for categorical data, diagnosis vs Akkermansia.muciniphila
+2021-10-14 17:36:13 INFO::Creating boxplot for categorical data, diagnosis vs Dorea.longicatena
+2021-10-14 17:36:14 INFO::Creating boxplot for categorical data, diagnosis vs Bifidobacterium.adolescentis
+2021-10-14 17:36:14 INFO::Creating boxplot for categorical data, diagnosis vs Bacteroides.fragilis
+2021-10-14 17:36:14 INFO::Creating boxplot for categorical data, diagnosis vs Clostridium.leptum
+2021-10-14 17:36:14 INFO::Creating boxplot for categorical data, diagnosis vs Burkholderiales.bacterium.1.1.47
+2021-10-14 17:36:15 INFO::Creating boxplot for categorical data, diagnosis vs Ruminococcus.lactaris
+2021-10-14 17:36:15 INFO::Creating boxplot for categorical data, diagnosis vs Ruminococcus.obeum
+2021-10-14 17:36:15 INFO::Creating boxplot for categorical data, diagnosis vs Ruminococcus.gnavus
+2021-10-14 17:36:15 INFO::Creating boxplot for categorical data, diagnosis vs Alistipes.putredinis
+2021-10-14 17:36:16 INFO::Creating boxplot for categorical data, diagnosis vs Subdoligranulum.unclassified
+2021-10-14 17:36:16 INFO::Creating boxplot for categorical data, diagnosis vs Coprobacillus.unclassified
+2021-10-14 17:36:16 INFO::Creating boxplot for categorical data, diagnosis vs Ruminococcus.gnavus
+2021-10-14 17:36:17 INFO::Creating boxplot for categorical data, diagnosis vs Bacteroides.xylanisolvens
+2021-10-14 17:36:17 INFO::Creating boxplot for categorical data, diagnosis vs Parabacteroides.unclassified
